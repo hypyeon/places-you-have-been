@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Places You've Been</title>
+</head>
+<body>
+    <form>
+        <h1>Choose a place to see info.</h1>
+        <input type="radio" name="place" value="kyrgyzstan">
+        <label for="kyrgyzstan">Kyrgyzstan</label>
+        <input type="radio" name="place" value="southkorea">
+        <label for="southkorea">South Korea</label>
+        <input type="radio" name="place" value="philippines">
+        <label for="philippines">Philippines</label>
+        <input type="radio" name="place" value="hongkong">
+        <label for="hongkong">Hong Kong</label>
+        <input type="radio" name="place" value="kazakhstan">
+        <label for="kazakhstan">Kazakhstan</label> 
+        <br>
+        <button type="submit">See info</button>
+        <button type="reset">Choose another</button>
+    </form>
+    <div>
+        <p id="result" class="hidden"></p>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
